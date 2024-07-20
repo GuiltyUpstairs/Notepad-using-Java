@@ -5,8 +5,11 @@ import javax.swing.*;
 public class Notepad extends JFrame {
     Notepad(){
         setVisible(true);
-    }
-    public static void main(String[] args) {
 
+        setTitle("Hello - Test");
+    }
+
+    public static void main(String[] args) {
+        new Notepad();
     }
 }
